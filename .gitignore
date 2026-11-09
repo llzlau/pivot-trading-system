@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary files
+logs/*.log
+*.tmp
+temp/
+scratch/
+archive/
+
+# Large media & binaries
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.zip
+*.tar.gz
+*.exe
+*.dll
+
+# Secrets & Environment variables
+.env
+.env.*
+secrets.*
+credentials.*
