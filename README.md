@@ -1,4 +1,4 @@
-# 反重力商品期货量化交易系统 (Antigravity Commodity Futures Trading System)
+# 中枢期货量化交易系统 (Pivot Trading System)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -56,7 +56,7 @@
 ## 三、 代码仓库目录结构
 
 ```
-antigravity-trading/
+pivot-trading-system/
 │
 ├── backtest/                        # 回测核心模块
 │   ├── system_sc_200k.py            # 20万本金原油 600 对锁全流程模拟引擎

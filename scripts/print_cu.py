@@ -2,7 +2,7 @@ from pathlib import Path
 import sys, io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 BASE_DIR = Path(__file__).resolve().parent.parent
-sys.path.append(r'D:\antigravity-trading\backtest')
+sys.path.append(str(BASE_DIR / 'backtest'))
 from backtest_with_stops import backtest_with_stops, INSTRUMENTS
 
 cfg = INSTRUMENTS['CU']
