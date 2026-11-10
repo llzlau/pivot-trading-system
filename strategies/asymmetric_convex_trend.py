@@ -87,6 +87,105 @@ COMMODITY_PORTFOLIO = [
         'margin_rate': 0.10,
         'tick_size': 1.0,
         'category': '大宗农产'
+    },
+    {
+        'symbol': '豆油 Y',
+        'file': 'Y_daily.csv',
+        'multiplier': 10.0,
+        'commission': 5.0,
+        'slippage': 15.0,
+        'capital': 100000.0,
+        'margin_rate': 0.08,
+        'tick_size': 2.0,
+        'category': '大宗油脂'
+    },
+    {
+        'symbol': '沪金 AU',
+        'file': 'AU_daily.csv',
+        'multiplier': 1000.0,
+        'commission': 10.0,
+        'slippage': 40.0,
+        'capital': 200000.0,
+        'margin_rate': 0.10,
+        'tick_size': 0.02,
+        'category': '贵金属'
+    },
+    {
+        'symbol': '沪银 AG',
+        'file': 'AG_daily.csv',
+        'multiplier': 15.0,
+        'commission': 15.0,
+        'slippage': 30.0,
+        'capital': 100000.0,
+        'margin_rate': 0.12,
+        'tick_size': 1.0,
+        'category': '贵金属'
+    },
+    {
+        'symbol': '烧碱 SH',
+        'file': 'SH_daily.csv',
+        'multiplier': 30.0,
+        'commission': 10.0,
+        'slippage': 20.0,
+        'capital': 100000.0,
+        'margin_rate': 0.10,
+        'tick_size': 1.0,
+        'category': '化工制造'
+    },
+    {
+        'symbol': '棕榈油 P',
+        'file': 'P_daily.csv',
+        'multiplier': 10.0,
+        'commission': 5.0,
+        'slippage': 15.0,
+        'capital': 100000.0,
+        'margin_rate': 0.10,
+        'tick_size': 2.0,
+        'category': '大宗油脂'
+    },
+    {
+        'symbol': '鸡蛋 JD',
+        'file': 'JD_daily.csv',
+        'multiplier': 10.0,
+        'commission': 5.0,
+        'slippage': 15.0,
+        'capital': 100000.0,
+        'margin_rate': 0.09,
+        'tick_size': 1.0,
+        'category': '大宗农产'
+    },
+    {
+        'symbol': '欧线集运 EC',
+        'file': 'EC_daily.csv',
+        'multiplier': 50.0,
+        'commission': 30.0,
+        'slippage': 50.0,
+        'capital': 200000.0,
+        'margin_rate': 0.18,
+        'tick_size': 0.1,
+        'category': '航运指数'
+    },
+    {
+        'symbol': '燃油 FU',
+        'file': 'FU_daily.csv',
+        'multiplier': 10.0,
+        'commission': 5.0,
+        'slippage': 15.0,
+        'capital': 100000.0,
+        'margin_rate': 0.10,
+        'tick_size': 1.0,
+        'category': '宏观能化'
+    },
+    {
+        'symbol': '低硫燃油 LU',
+        'file': 'LU_daily.csv',
+        'multiplier': 10.0,
+        'commission': 5.0,
+        'slippage': 15.0,
+        'capital': 100000.0,
+        'margin_rate': 0.10,
+        'tick_size': 1.0,
+        'category': '宏观能化'
     }
 ]
 
